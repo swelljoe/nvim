@@ -27,4 +27,12 @@ return {
       },
     },
   },
+
+  -- Holy hell, why is it converting spaces to tabs!?
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      autoformat = false,
+    },
+  },
 }
